@@ -87,7 +87,7 @@ if __name__ == "__main__":
         X_train_encoded_ = X_train_
         X_val_encoded = X_val
         encoding_dim = X_train_encoded.shape[1]
-    autoencoder.save(os.path.join(MODELS_DIR, f"{data_name}_autoencoder.h5"))
+    autoencoder.save(os.path.join(MODELS_DIR, f"{data_name}_ete.h5"))
     encoder.save(os.path.join(MODELS_DIR, f"{data_name}_encoder.h5"))
 
     dnn = models.train_dnn_model(
@@ -100,4 +100,4 @@ if __name__ == "__main__":
         epochs=epochs,
         batch_size=batch_size,
     )
-    dnn.save(os.path.join(MODELS_DIR, f"{data_name}_dnn.h5"))
+    dnn.save(os.path.join(MODELS_DIR, f"{data_name}_cnn.h5"))
