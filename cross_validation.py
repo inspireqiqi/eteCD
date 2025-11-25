@@ -200,9 +200,9 @@ if __name__ == "__main__":
     print("======================================\n")
 
     # ===== Save Results =====
-    result_file = os.path.join(RESULTS_DIR, f"{data_name}_results_3.csv")
-    roc_file_path = os.path.join(RESULTS_DIR, f"{data_name}_roc_auc_curve_3GGS.png")
-    pr_file_path = os.path.join(RESULTS_DIR, f"{data_name}_pr_curve_3GGS.png")
+    result_file = os.path.join(RESULTS_DIR, f"{data_name}_results_1.csv")
+    roc_file_path = os.path.join(RESULTS_DIR, f"{data_name}_roc_auc_curve_1GGS.png")
+    pr_file_path = os.path.join(RESULTS_DIR, f"{data_name}_pr_curve_1GGS.png")
     # result_file = os.path.join(RESULTS_DIR, f"{data_name}_GRU_results.csv")
     # roc_file_path = os.path.join(RESULTS_DIR, f"{data_name}_GRU_roc.png")
     # pr_file_path = os.path.join(RESULTS_DIR, f"{data_name}_GRU_pr.png")
